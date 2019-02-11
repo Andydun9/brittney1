@@ -1,0 +1,63 @@
+/* 
+fonts: 
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Amatic SC', cursive;
+
+FE1836
+
+#FE1836 - red
+#7B0000- dark Red
+#76AEF3- blue
+#291715- black
+#F4E1E2- white/pink
+
+#FFF3F0- white
+*/
+
+.header{
+    background-color: #F4E1E2;
+    margin: 0;
+    margin-top: -23px;
+    height: 7em;
+    /* position: fixed; */
+    width: 100%;
+}
+
+
+body{
+  margin:0;
+  background-image: url("../photos/background.jpeg");
+  background-size: 100%;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: .5em;
+}
+
+.mainContent{
+    background-color:rgba(255,243,240,0.85);
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    
+    
+}
+
+#letter{
+    width: 85%;
+    padding-top: 1em;
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25em;
+    color:#291715;
+}
+
+h2{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 5em;
+    
+}
