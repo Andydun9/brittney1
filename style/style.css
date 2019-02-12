@@ -16,13 +16,14 @@ FE1836
 #FFF3F0- white
 */
 
-.header{
+.headers{
     background-color: #F4E1E2;
     margin: 0;
-    margin-top: -23px;
+    margin-top: -125px;
     height: 7em;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    clear: both;
 }
 
 
@@ -42,9 +43,7 @@ h1{
     background-color:rgba(255,243,240,0.85);
     width: 85%;
     margin: auto;
-    margin-top: 2em;
-    
-    
+    margin-top: 7em;
 }
 
 #letter{
@@ -59,5 +58,42 @@ h1{
 h2{
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 5em;
-    
+    text-align: center;
+}
+
+.videos, .pictures{
+    width: 85%;
+    margin: auto;
+}
+
+.movie{
+width:350px;
+height: 200px;
+}
+
+.landscape{
+    width: 350px;
+    border-radius: 2%;
+}
+
+.photoText{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    width: 350px;
+}
+
+.caption{
+  text-align: center;
+  font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    margin-top: 2em;
+}
+
+#bitch{
+    margin-left: 50em;
+    position: relative;
 }
