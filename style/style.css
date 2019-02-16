@@ -46,7 +46,7 @@ h1{
     margin-top: 7em;
 }
 
-#letter{
+#letter, .fav{
     width: 85%;
     padding-top: 1em;
     margin: auto;
@@ -73,13 +73,17 @@ height: 200px;
 
 .landscape{
     width: 350px;
+    height: 500px;
     border-radius: 2%;
+margin: 2em;
 }
 
 .photoText{
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
     width: 350px;
+    display: inline-block;
+    margin: .5em;
 }
 
 .caption{
@@ -97,3 +101,11 @@ footer{
     margin-left: 50em;
     position: relative;
 }
+
+#punisher{
+    width: 16px;
+    height: 20px;
+}
+
+
+
