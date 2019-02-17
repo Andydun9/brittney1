@@ -31,6 +31,7 @@ body{
   margin:0;
   background-image: url("../photos/background.jpeg");
   background-size: 100%;
+  background-repeat: repeat-y;
 }
 
 h1{
@@ -57,8 +58,11 @@ h1{
 
 h2{
     font-family: 'Libre Barcode 39 Text', cursive;
-    font-size: 5em;
+    font-size: 3.5em;
     text-align: center;
+    color: #291715;
+    padding: .2em;
+
 }
 
 .videos, .pictures{
@@ -109,3 +113,24 @@ footer{
 
 
 
+@media only screen and (min-width: 900px) {
+    /* For desktop: */
+    body{
+        width:100%
+    }
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For cell phone*/
+    .movie{
+        width: 300px;
+    }
+.landscape{
+    width:300px;
+    height: 400px;
+}
+    html{
+        width:235%;
+    }
+  }
