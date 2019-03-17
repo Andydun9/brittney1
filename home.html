@@ -34,7 +34,7 @@
                 Daniel thought it would be funny to make Jessica and I sing a duet together. Without even mentioning it
                 you
                 two
-                signed us up to sing karaoke.</p>
+                signed us up for karaoke.</p>
 
             <p>I remember as I stepped out of the bathroom all of a sudden, I here the DJ say, “for our next
                 song we have Andy and Jess singing Sweet Caroline by Neil Diamond”. Not prepared for a song that I don’t
@@ -56,10 +56,11 @@
                 Andy and Jess</p>
 
         </div>
-    
-    
-        <h2>Favorite Things</h2>
-        
+
+        <div class="header1" id="myHeader">
+            <h2 id="sticky">Favorite Things</h2>
+        </div>
+
         <ul class="fav">
             <li>If Brittney was a wrestler her name would be the "Punisher" <img id="punisher" src="photos/punisher.png"
                     alt="punisher logo"></li>
@@ -70,7 +71,8 @@
 
 
         <div class="videos">
-            <h2>Videos</h2>
+
+            <h2 id="header2">Videos</h2>
             <div class="photoText">
                 <iframe src="https://www.youtube.com/embed/TpNdWx5pfxY" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
@@ -80,17 +82,24 @@
 
             <div class="photoText">
                 <iframe src="https://www.youtube.com/embed/y-zmSTAxhl0" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen class="movie"></iframe>
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    class="movie"></iframe>
                 <p class="caption">Brittney Singing Along at Home</p>
             </div>
 
+            <div class="photoText">
+                <iframe src="https://www.youtube.com/embed/yBqEtJ0NPEg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="movie"></iframe>
+                <p class="caption">Brittney Singing at the HUB</p>
+            </div>
+
         </div>
-        
+
 
         <div class="pictures">
 
-            <h2>Photos</h2>
+            <h2 header3>Photos</h2>
 
             <div class="photoText">
                 <img src="photos/IMG_1432.jpg" alt="Photo of Daniel" class="landscape">
@@ -120,6 +129,33 @@
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/249201018&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
     </footer>
 
+
+
+    <script>
+
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        // Get the header
+        var header = document.getElementById("header1");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header1.classList.add("sticky");
+            } else {
+                header1.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
 </body>
+
+
+
 
 </html>
